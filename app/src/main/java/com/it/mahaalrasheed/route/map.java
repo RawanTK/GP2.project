@@ -56,7 +56,7 @@ public class map extends AppCompatActivity
 //NAJA
 // Najat2
 
-public int raw=66;
+public int raw=668;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
