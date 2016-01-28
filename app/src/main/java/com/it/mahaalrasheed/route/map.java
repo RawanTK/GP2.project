@@ -52,7 +52,7 @@ public class map extends AppCompatActivity
     Notification notification;
     private GoogleApiClient mGoogleApiClient;
 ///test commit
-    public int news=99;
+    public int news=109;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
