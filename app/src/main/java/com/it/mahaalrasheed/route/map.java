@@ -54,6 +54,7 @@ public class map extends AppCompatActivity
 ///test commit
     public int news=109;
 //NAJAt
+    //Najat2
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
