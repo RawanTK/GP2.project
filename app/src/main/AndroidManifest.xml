@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.it.mahaalrasheed.route">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".map"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".favorite"
+            android:label="Favorites" />
+        <activity
+            android:name=".notif"
+            android:label="Notification" />
+        <activity
+            android:name=".login"
+            android:label="Login" />
+        <activity
+            android:name=".aboutus"
+            android:label="About us" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDLgwbDhQm8FTEyHEpts2sBRmDy_c_bOf4" />
+
+        <activity
+            android:name=".from"
+            android:label="From" />
+        <activity
+            android:name=".to"
+            android:label="To" />
+        <activity
+            android:name=".Splash"
+            android:theme="@style/splashScreenTheme" />
+        <activity android:name=".Menu" />
+        <activity android:name=".EnterMetroStation" />
+        <activity android:name=".EnterLandMark" />
+        <activity android:name=".EnterBusStation" />
+        <activity android:name=".Delete" />
+        <activity android:name=".DeleteBusStation" />
+        <activity android:name=".DeleteLandMark" />
+        <activity android:name=".DeleteMetroStation" />
+        <activity android:name=".Enter" />
+        <activity android:name=".NewPost" />
+    </application>
+
+</manifest>
