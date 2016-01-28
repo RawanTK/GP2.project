@@ -53,8 +53,8 @@ public class map extends AppCompatActivity
     private GoogleApiClient mGoogleApiClient;
 ///test commit
     public int news=109;
-//NAJAt
-    //Najat2
+//NAJA
+// Najat2
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
