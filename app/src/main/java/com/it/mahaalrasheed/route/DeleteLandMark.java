@@ -24,7 +24,7 @@ import retrofit.client.Response;
 
 public class DeleteLandMark extends AppCompatActivity {
 
-    public static final String ROOT_URL = "http://192.168.1.69/";
+    public static final String ROOT_URL = "http://10.6.203.136/";
     Spinner dropdown;
     List<String> spin = new ArrayList<String>();
 

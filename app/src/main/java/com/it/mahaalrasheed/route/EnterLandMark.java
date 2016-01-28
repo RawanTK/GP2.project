@@ -20,7 +20,7 @@ import retrofit.client.Response;
 
 public class EnterLandMark extends AppCompatActivity {
 
-    public static final String ROOT_URL = "http://192.168.1.69/";
+    public static final String ROOT_URL = "http://10.6.203.136/";
     EditText category, name, coord;
     String n, c, co;
     int LandmarkID = 1;
