@@ -53,8 +53,8 @@ public class map extends AppCompatActivity
     private GoogleApiClient mGoogleApiClient;
 ///test commit
     public int news=109;
-//NAJAt
-    //Najat2
+//NAJA
+// Najat2
 
 public int raw=66;
     @Override
