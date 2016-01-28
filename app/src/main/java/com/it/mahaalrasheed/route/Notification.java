@@ -7,16 +7,7 @@ import io.realm.RealmObject;
  */
 public class Notification extends RealmObject{
 
-    private String Content;
     private int ID;
-
-    public String getContent() {
-        return Content;
-    }
-
-    public void setContent(String content) {
-        Content = content;
-    }
 
     public int getID() {
         return ID;
