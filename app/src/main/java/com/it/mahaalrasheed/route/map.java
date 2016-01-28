@@ -51,12 +51,7 @@ public class map extends AppCompatActivity
     Button from, to;
     Notification notification;
     private GoogleApiClient mGoogleApiClient;
-///test commit
-    public int news=109;
-//NAJA
-// Najat2
 
-public int raw=668;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
